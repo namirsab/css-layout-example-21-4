@@ -15,6 +15,14 @@ html {
 
 .header {
   background-color: darkkhaki;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+.header img {
+  height: 80px;
 }
 
 .content {
@@ -27,6 +35,10 @@ html {
 }
 
 .info-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
   background-color: darkkhaki;
 }
 
@@ -53,4 +65,9 @@ html {
   background-color: steelblue;
   color: whitesmoke;
   padding: 0.25em;
+}
+
+.interest-items > li:nth-child(even) {
+  color: steelblue;
+  background-color: whitesmoke;
 }
