@@ -1,0 +1,26 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body-grid {
+  display: grid;
+  grid-template-rows: 100px auto 80px;
+}
+
+.header {
+  background-color: darkkhaki;
+}
+
+.content {
+  background-color: khaki;
+}
+
+.info-footer {
+  background-color: darkkhaki;
+}
