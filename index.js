@@ -1,9 +1,9 @@
 import { createCardComponent } from "./lib/card.js";
-import { data } from "./lib/db.js";
+import { getCards } from "./lib/db.js";
 
 // Render cards coming from data
 const cardComponents = [];
-data.forEach((cardData) => {
+getCards().forEach((cardData) => {
   const cardComponent = createCardComponent(cardData);
   cardComponents.push(cardComponent);
 });
